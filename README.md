@@ -1,5 +1,8 @@
 # Slurm Docker Cluster
 
+**This is a fork of the original repo, updated to work with Slurm v23.02.6-1. The
+instructions in the README are for an older version.**
+
 This is a multi-container Slurm cluster using docker-compose.  The compose file
 creates named volumes for persistent storage of MySQL data files as well as
 Slurm state and log directories.
