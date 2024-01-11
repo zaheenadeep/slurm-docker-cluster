@@ -33,7 +33,7 @@ services:
 
   slurmctld:
     image: slurm-docker-cluster:23.02
-    command: ["slurmctld", ";", "sleep", "34534543"]
+    command: ["slurmctld"]
     container_name: slurmctld
     hostname: slurmctld
     volumes:
